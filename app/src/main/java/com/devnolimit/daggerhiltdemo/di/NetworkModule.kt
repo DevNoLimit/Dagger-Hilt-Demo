@@ -21,7 +21,7 @@ object NetworkModule {
     @RetrofitOne
     fun retrofit(): Retrofit {
         return Retrofit.Builder()
-            .baseUrl("www.google.com")
+            .baseUrl("https://www.google.com/")
             .build()
     }
 
@@ -31,7 +31,7 @@ object NetworkModule {
     @RetrofitTwo
     fun retrofit2(): Retrofit {
         return Retrofit.Builder()
-            .baseUrl("www.devnolimit.com")
+            .baseUrl("https://www.google.com/")
             .build()
     }
 
